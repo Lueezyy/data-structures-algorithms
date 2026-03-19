@@ -13,18 +13,15 @@ public class linearSearch{
     }
     public static void main(String[] args){
         Random random = new Random();
-
         int[] arr = new int[25];
         for (int j=0; j<25; j++)
             arr[j] = random.nextInt(25) + 1;
-
         System.out.println(Arrays.toString(arr));
-
+        
         int sn = random.nextInt(25) + 1;
         int[] result = linear_search(arr, sn);
         int index = result[0];
         int checks = result[1];
-
         System.out.printf("Search number: %d \nIndex: %d \nLinear search: %d elements checked\n\n", sn, index, checks);
     }
 }

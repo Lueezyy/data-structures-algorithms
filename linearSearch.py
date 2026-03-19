@@ -1,5 +1,4 @@
 import random
-import time
 
 def linearSearch(arr, sn):
     s = 0
@@ -12,5 +11,5 @@ def linearSearch(arr, sn):
 arr = [random.randint(1, 25) for n in range(25)]
 print(arr)
 sn = random.randint(1, 25)
-index , lChecks = linearSearch(arr, sn)
-print(f"Search number: {sn} \nIndex: {index} \nLinear search: {lChecks} elements checked\n")
+index, checks = linearSearch(arr, sn)
+print(f"Search number: {sn} \nIndex: {index} \nLinear search: {checks} elements checked\n")
