@@ -8,6 +8,7 @@ def linearSearch(arr, sn):
             return i, s
     return -1, s
 
+#Test algorithm with random array
 arr = [random.randint(1, 25) for n in range(25)]
 print(arr)
 sn = random.randint(1, 25)

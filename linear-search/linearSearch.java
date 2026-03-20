@@ -11,6 +11,8 @@ public class linearSearch{
         }
         return new int[] {-1, checks};
     }
+    
+    //Test algorithm with random array
     public static void main(String[] args){
         Random random = new Random();
         int[] arr = new int[25];
