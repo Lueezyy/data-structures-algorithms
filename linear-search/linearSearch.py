@@ -1,10 +1,10 @@
 import random
 
-def linearSearch(arr, sn):
+def linearSearch(array, sn):
     checks = 0
-    for i in range(len(arr)):
+    for i in range(len(array)):
         checks += 1
-        if arr[i] == sn:
+        if array[i] == sn:
             return i, checks
     return -1, checks
 
