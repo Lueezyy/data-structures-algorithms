@@ -1,8 +1,8 @@
 import java.util.Random;
 import java.util.Arrays;
 
-public class linearSearch{
-    public static int[] linear_search(int[] array, int sn){
+public class LinearSearch{
+    public static int[] linearSearch(int[] array, int sn){
         int checks = 0;
         for (int i = 0; i < array.length; i++){
             checks ++;
@@ -11,7 +11,7 @@ public class linearSearch{
         }
         return new int[] {-1, checks};
     }
-    
+
     //Test algorithm with random array
     public static void main(String[] args){
         Random random = new Random();
@@ -21,7 +21,7 @@ public class linearSearch{
         System.out.println(Arrays.toString(arr));
         
         int sn = random.nextInt(25) + 1;
-        int[] result = linear_search(arr, sn);
+        int[] result = linearSearch(arr, sn);
         int index = result[0];
         int checks = result[1];
         System.out.printf("Search number: %d \nIndex: %d \nLinear search: %d elements checked\n\n", sn, index, checks);

@@ -1,12 +1,12 @@
 import random
 
 def linearSearch(arr, sn):
-    s = 0
+    checks = 0
     for i in range(len(arr)):
-        s += 1
+        checks += 1
         if arr[i] == sn:
-            return i, s
-    return -1, s
+            return i, checks
+    return -1, checks
 
 #Test algorithm with random array
 arr = [random.randint(1, 25) for n in range(25)]
