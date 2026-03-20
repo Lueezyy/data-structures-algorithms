@@ -6,3 +6,4 @@ Program | Java | Python
 :--- | --- | ---
 Linear Search | [Java](linear-search/linearSearch.java) | [Python](linear-search/linearSearch.py)
 Binary Search | [Java](binary-search/BinarySearch.java) | [Python](binary-search/BinarySearch.py)
+Bubble Sort | [Java](bubble-sort/BubbleSort.java) | [Python](bubble-sort/BubbleSort.py)
