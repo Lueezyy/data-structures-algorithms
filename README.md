@@ -4,5 +4,5 @@
 
 Program | Java | Python
 :--- | --- | ---
-Linear Search | [Java](https://github.com/Lueezyy/data-structures-algorithms/blob/main/linear-search/linearSearch.java) | [Python](https://github.com/Lueezyy/data-structures-algorithms/blob/main/linear-search/linearSearch.py)
-Binary Search | [Java]() | [Python]()
+Linear Search | [Java](linear-search/linearSearch.java) | [Python](linear-search/linearSearch.py)
+Binary Search | [Java](binary-search/BinarySearch.java) | [Python](binary-search/BinarySearch.py)
