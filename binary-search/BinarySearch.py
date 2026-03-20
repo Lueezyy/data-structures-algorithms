@@ -15,7 +15,7 @@ def binarySearch(array, sn):
 
 #Test algorithm with random array
 arr = [n + 1 for n in range(25)]
-print(arr)
+print(f'Random array: {arr}')
 sn = random.randint(1, 26)
 index, checks = binarySearch(arr, sn)
 print(f"Search number: {sn} \nIndex: {index} \nBinary search: {checks} elements checked\n")

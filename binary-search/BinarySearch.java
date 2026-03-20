@@ -23,8 +23,7 @@ public class BinarySearch {
         int[] arr = new int[25];
         for (int j=0; j<25; j++)
             arr[j] = j + 1;
-        System.out.println(Arrays.toString(arr));
-        
+        System.out.println("Random array: " + Arrays.toString(arr));
         int sn = random.nextInt(26) + 1;
         int[] result = binarySearch(arr, sn);
         int index = result[0];

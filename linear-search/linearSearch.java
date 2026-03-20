@@ -18,7 +18,7 @@ public class LinearSearch{
         int[] arr = new int[25];
         for (int j=0; j<25; j++)
             arr[j] = random.nextInt(25) + 1;
-        System.out.println(Arrays.toString(arr));
+        System.out.println("Random array: " + Arrays.toString(arr));
         
         int sn = random.nextInt(25) + 1;
         int[] result = linearSearch(arr, sn);
